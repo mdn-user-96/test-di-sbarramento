@@ -1,0 +1,58 @@
+body {
+    height: 100vh;
+    display: flex;
+}
+
+nav {
+    width: 10%;
+    display: flex;
+}
+
+header {
+    height: 30%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bottom_nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+section {
+    height: 70%;
+    width: 100%;
+}
+
+main {
+    width: 75%;
+}
+
+aside {
+    width: 15%;
+    background-color: grey;
+    display: flex;
+    justify-content: center
+}
+
+aside>div {
+    width: 100px;
+    height: 30px;
+}
+
+.up_nav {
+    display: flex;
+    justify-content: center;
+    background-color: grey;
+    border: 2px solid black;
+}
+
+.cerchio {
+    background-color: grey;
+    height: 40px;
+    width: 40px;
+    border-radius: 100%;
+}
